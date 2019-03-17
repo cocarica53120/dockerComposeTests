@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  ex1_app_1:
+    build: 
+      context: .
+    env_file:
+      - .env

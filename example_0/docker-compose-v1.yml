@@ -1,0 +1,4 @@
+exapp_1:
+  build: .
+  environment:
+    - DEBUG=1

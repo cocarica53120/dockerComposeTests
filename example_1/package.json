@@ -1,0 +1,14 @@
+{
+  "name": "example_1",
+  "version": "1.0.0",
+  "description": "basic express with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node hello-world.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

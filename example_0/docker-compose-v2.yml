@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  exapp_2:
+    build: 
+      context: .
+      args:
+        buildno: 2
+    environment:
+      name: "COCO"
+    env_file:
+      - ex_2_0.env
